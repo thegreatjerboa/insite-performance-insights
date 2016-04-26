@@ -34,9 +34,9 @@
           <h2>Overview</h2>
           <p>
             <ul>
-              <li>What I test</li>
-              <li>Tools I use to test</li>
-              <li>Results Generated</li>
+              <li>What to test</li>
+              <li>Tools to test with</li>
+              <li>Analysis of Results Generated</li>
               <li>How I write tests</li>
             </ul> 
           </p>
@@ -61,22 +61,22 @@
               <li> Client Side Evaluation &amp; Action Items
                 <ul>
                   <li><a href="https://www.sitespeed.io">Sitespeed.io</a>
-                      <ul>
-                        <li><a href="https://www.webpagetest.org/">WebPageTest</a></li>
-                        <li>BrowserTime</li>
-                        <li>phantom.js</li>
-                        <li>ySlow</li>
-                        <li>plus lots more</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li> Server Side Evaluation
-                  <ul>
-                    <li><a href="http://gatling.io/">Gatling</a></li>
-                  </ul>
-                </li>
-                <li>No Server Side action items</li>
+                    <ul>
+                      <li><a href="https://www.webpagetest.org/">WebPageTest</a></li>
+                      <li>BrowserTime</li>
+                      <li>phantom.js</li>
+                      <li>ySlow</li>
+                      <li>plus lots more</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li> Server Side Evaluation
+                <ul>
+                  <li><a href="http://gatling.io/">Gatling</a></li>
+                </ul>
+              </li>
+              <li>No Server Side action items</li>
             </ul>
           </section>
         </section>
@@ -86,7 +86,10 @@
           </section>
           <section>
             <h2>Trends</h2>
-            <a href="https://grafana.schumacher.io/dashboard/db/isc-perfomance-trend?from=now-18d&to=now">Trends</a>
+            <ul>
+              <li><a href="https://grafana.schumacher.io/dashboard/db/isc-performance-trend?from=now-18d&to=now">Trends</a></li>
+              <li><a href="https://dashboard.sitespeed.io/">Future</a></li>
+            </ul>
           </section>
           <section>
             <h2>Sitespeed reports</h2>
@@ -105,6 +108,24 @@
               <li><a href="https://reports-insite.schumacher.io/gatling/results/base41-1461548888525/">2016-04-24 4.1</a></li>
               <li><a href="https://reports-insite.schumacher.io/gatling/results/base42-1461552171707/">2016-04-24 4.2</a></li>
               <li><a href="https://grafana.schumacher.io/dashboard/db/isc-performance-detail">Grafana</a></li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Structure of tests</h1>
+          </section>
+          <section>
+            <h2>Urls Tested</h2>
+            <ul>
+              <ul>/</ul>
+              <ul>/Catalog/Food-Service-and-Breakroom</ul>
+              <ul>/Catalog/Food-Service-and-Breakroom/Food-Containers</ul>
+              <ul>/Catalog/Food-Service-and-Breakroom/Food-Containers/Table-Covers-and-Skirts</ul>
+              <ul>/Product/770700</ul>
+              <ul>/Product/773717</ul>
+              <ul>/search?criteria=cupcake</ul>
+              <ul>/search?criteria=food</ul>
             </ul>
           </section>
         </section>
